@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.modeloCaja {
+    height: 500px;
+    width: 500px;
+    margin: 200px;
+    background-color: yellow;
+    background-image: url(/images/casa.png);
+    padding: 80px;
+    border: solid 5px orange
+}
