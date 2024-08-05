@@ -11,3 +11,22 @@
     padding: 80px;
     border: solid 5px orange
 }
+
+@font-face {
+    font-family: simpsons;
+    src: url(/fonts/Simpsonfont.otf)
+}
+
+h1 {
+    font-family: simpsons;
+    font-size: 160px;
+}
+
+@media (min-width: 175px) and (max-width: 1199px) {
+    .ocultar {
+        display: none;
+    }
+    body {
+        background-color: yellow;
+    }
+  }
